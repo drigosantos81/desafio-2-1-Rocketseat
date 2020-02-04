@@ -1,3 +1,6 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Teko&display=swap";
+
 * {
     margin: 0;
     border: 0;
@@ -6,6 +9,7 @@
 
 body {
     background: #709beb;
+    font-family: 'Roboto', sans-serif;
 }
 
 body div {
@@ -15,9 +19,31 @@ body div {
 #rotulo {
     padding: 32px 20px 32px 20px;
     text-align: center;
+    background: white;
 }
 
 #infos {
     padding: 32px;
     border-top: darkslategray solid 3px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#infos h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#base {
+    padding: 1px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#base a {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
 }
