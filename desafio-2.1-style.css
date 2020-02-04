@@ -34,8 +34,20 @@ body div {
     font-size: 20px;
 }
 
+#licencas {
+    padding: 32px 20px 32px 20px;
+    text-align: center;
+}
+
+#licencas a {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+
 #base {
-    padding: 1px;
+    padding: 16px;
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 20px;
