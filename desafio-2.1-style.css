@@ -1,6 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
 @import "https://fonts.googleapis.com/css?family=Teko&display=swap";
 
+:root {
+    --color-marron: #ebba70;
+}
+
 * {
     margin: 0;
     border: 0;
@@ -19,7 +23,7 @@ body div {
 #rotulo {
     padding: 32px 20px 32px 20px;
     text-align: center;
-    background: white;
+    /*background: white;*/
 }
 
 #infos {
@@ -45,6 +49,33 @@ body div {
     text-decoration: none;
 }
 
+#topo {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 16px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* #topo:hover {
+    color: var(--color-marron);
+    transition: 700ms;
+} */
+
+.links {
+    transition: 700ms;
+}
+
+.links:hover {
+    color: var(--color-marron);
+    transition: 700ms;
+}
+
+#topo a {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+}
 
 #base {
     padding: 16px;
@@ -52,10 +83,19 @@ body div {
     font-family: 'Teko', sans-serif;
     font-size: 20px;
     text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 #base a {
     padding-right: 30px;
     padding-left: 30px;
     text-decoration: none;
+}
+
+/* CARDS */
+.cards {
+    max-width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
 }
