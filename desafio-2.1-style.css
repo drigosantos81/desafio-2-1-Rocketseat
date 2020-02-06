@@ -71,10 +71,15 @@ body div {
     transition: 700ms;
 }
 
-#topo a {
+.topo a {
     padding-right: 30px;
     padding-left: 30px;
     text-decoration: none;
+}
+
+.topo a:hover{
+    transition: 700ms;
+    color: red;
 }
 
 #base {
