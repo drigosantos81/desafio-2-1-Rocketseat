@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/2.2-Front-End/desafio-2-1/desafio-2.1-style.css">
-    <link rel="icon" href="/2.2-Front-End/desafio-2-1/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./desafio-2.1-style.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <title>Conteúdos | Rocketseat</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,7 +19,6 @@
     </header>
 
     <section class="cards">
-
         <div class="card" id="rotulo">
             <div class="card__image">
                 <img src="../desafio-2-1/images/iconiSite.jpg" alt="">
@@ -28,31 +28,35 @@
 
         <div class="card">
             <div class="card-content">
-                <div id="starter" name="Starter">
+
+                <div id="starter" class="card__image-content" name="Starter">
                     <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="">
                 </div>
-                
-                <div id="launchbase" name="LaunchBase">
+
+                <div id="launchbase" class="card__image-content" name="Starter">
                     <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="">
                 </div>
-                
-                <div id="gostack" name = "GoStack">
+
+                <div id="gostack" class="card__image-content" name="Starter">
                     <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="">
                 </div>
-                
+
             </div>
+
         </div>
         
     </section>
 
-    <div class="modal-1">
+    <div class="modal_1">
         <div class="modal">
+            <a href="" class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
             <iframe src="" frameborder="0"></iframe>
         </div>
-
     </div>
 
-    <div class="base" id="base">
+    <div class="base links" id="base">
         <a href="">Sobre o desafio</a>
         <a href="">Entrega</a>
         <a href="">Licença</a>

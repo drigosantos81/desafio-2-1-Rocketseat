@@ -128,15 +128,19 @@ body div {
 }
 
 .card__image img {
-    width: 35%;
+    width: 15%;
     border: 5px solid var(--color-marron);
     border-radius: 195px;
-    box-shadow: 0 0 50px;
+    box-shadow: 0 0 80px 30px;
+}
+
+.card__image-content {
+    width: 100%;
 }
 
 /* MODAL */
 
-.modal-1 {
+.modal_1 {
     background-color: var(--color-brancoLeve);
     width: 100%;
     height: 100%;
@@ -154,8 +158,16 @@ body div {
     position: relative;
 }
 
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    cursor: pointer;
+}
+
 /* MODAL.ATIVO */
-.modal-1.active {
+.modal_1.active {
     opacity: 1;
     visibility: visible;
 }
@@ -165,4 +177,10 @@ iframe {
     height: 90%;
     position: absolute;
     top: 5%;
+}
+
+.maxi-modal-active {
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
 }
