@@ -114,6 +114,7 @@ body div {
 
 .card-content {
     max-width: 90%;
+    text-align: center;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -153,7 +154,7 @@ body div {
 .modal {
     background-color: var(--color-brancoLeve);
     width: 65%;
-    height: 54%;
+    height: 85%;
     margin: 5vh auto;
     position: relative;
 }
