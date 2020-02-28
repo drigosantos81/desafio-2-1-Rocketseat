@@ -5,7 +5,7 @@ for (card of cards) {
     card.addEventListener("click", function(){
         const conteudo = card.getAttribute("id");
         modalPage.classList.add("active");
-        modalPage.querySelector("iframe").src=`https://rocketseat.com.br/${conteudo}`;
+        modalPage.querySelector("iframe").src = `https://rocketseat.com.br/${conteudo}`;
     })
 }
 

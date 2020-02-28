@@ -137,6 +137,7 @@ body div {
 
 .card__image-content {
     width: 100%;
+    cursor: pointer;
 }
 
 /* MODAL */
